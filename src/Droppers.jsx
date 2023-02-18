@@ -61,12 +61,12 @@ export default function Droppers() {
             </Splide>
             <Modal active={modalActive} setActive={setModalActive}>
                 {<>
-                    <div className="dropper"><img src={"../img/"+dropperItem+".svg"} alt="" /></div> 
-                    <div>
-                        <h2>{dropperData[dropperItem]?.name}</h2>
-                        <p>{dropperData[dropperItem]?.included_service}</p>
-                        <h1>{dropperData[dropperItem]?.price}</h1>
-                        <p>{dropperData[dropperItem]?.full_description}</p>
+                    <div className="dropper-modal"><img src={"../img/"+dropperItem+".svg"} alt="" /><button className="button-dropper-modal">Узнать больше</button></div> 
+                    <div className="modal-description">
+                        <h2 className="dropper-name">{dropperData[dropperItem]?.name}</h2>
+                        <p className="included-service">{dropperData[dropperItem]?.included_service}</p>
+                        <h1 className="dropper-price">{dropperData[dropperItem]?.price}</h1>
+                        <p className="dropper-description">{dropperData[dropperItem]?.full_description}</p>
                         <button className="description-button">ЗАПИСАТЬСЯ</button>
                     </div>
                 </>}
