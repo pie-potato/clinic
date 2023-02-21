@@ -11,7 +11,6 @@ code {
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -55,6 +54,9 @@ header {
   margin: 150px auto;
   max-width: 1232px;
 }
+
+
+
 
 .container-0 {
   display: flex;
@@ -189,6 +191,13 @@ header {
   flex-wrap: wrap;
 }
 
+.services-hover {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .button-services {
   background: linear-gradient(267.76deg, #EDB7C4 11.05%, #FF91AB 75.8%);
   border-radius: 10px;
@@ -227,7 +236,7 @@ header {
   letter-spacing: 0.01em;
 
   color: #002726;
-  width: 100%;
+  width: 554px;
   cursor: pointer;
 }
 
@@ -425,11 +434,18 @@ header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-height: 400px;
-  overflow: hidden;
-  max-width: 1232px;
+  /* max-height: 400px; */
+  /* overflow: hidden; */
+  /* max-width: 1232px; */
 }
 
+.specialist {
+  max-width: 301px;
+}
+
+.mobile-specialists {
+  display: none;
+}
 
 .specialist-name {
   font-family: 'Montserrat';
@@ -467,7 +483,7 @@ header {
 .rewiews {
   background: linear-gradient(180deg, #DDFFE0 0%, #C5FFF3 100%);
   border-radius: 19px;
-  width: 325px;
+  /* width: 325px; */
   height: 390px;
   padding: 15px;
   text-align: left;
@@ -628,4 +644,50 @@ footer>div>h2 {
 
 .modal-description {
   max-width: 70%;
+}
+
+.cross-modal {
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .specialists {
+    display: none;
+  }
+  .mobile-specialists {
+    display: block;
+  }  
+}
+
+
+@media (max-width: 1100px) {
+  .container {
+    justify-content: center; 
+  }
+  .short-description {
+    text-align: center;
+  }   
+  .mini-p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .services-hover {
+    justify-content: space-evenly;
+  }
+  .services {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .services-point {
+    width: 100%;
+  }
+  .services-point-item {
+    width: 100%;
+  }
 }

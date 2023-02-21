@@ -23,8 +23,8 @@ export default function Reviews() {
                     arrows: true,
                     mediaQuery: 'max',
                     breakpoints: {
-                            1222: {
-                                perPage: 3,
+                            1080: {
+                                perPage: 2,
                             },
                             880: {
                                 perPage: 2,
