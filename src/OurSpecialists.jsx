@@ -30,11 +30,13 @@ export default function OurSpecialists() {
                 </div>
             </div>
 
-            <Splide className="mobile-specialists" options={ {
+            <Splide className="specialists mobile-specialists" options={ {
                     rewind: true,
                     width : "100%",
-                    gap   : '0px',
-                    perPage: 3,
+                    gap: '5%',
+                    padding: 60,
+                    // autoWidth: true, 
+                    perPage: 2,
                     perMove: 1,
                     // autoplay: true,
                     interval: 2500,
@@ -42,7 +44,7 @@ export default function OurSpecialists() {
                     arrows: true,
                     mediaQuery: 'max',
                     breakpoints: {
-                            880: {
+                            768: {
                                 perPage: 2,
                             },
                             425: {

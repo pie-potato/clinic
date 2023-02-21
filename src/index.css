@@ -436,11 +436,11 @@ header {
   flex-wrap: wrap;
   /* max-height: 400px; */
   /* overflow: hidden; */
-  /* max-width: 1232px; */
+  /* max-width: 50%; */
 }
 
 .specialist {
-  max-width: 301px;
+  max-width: 300px;
 }
 
 .mobile-specialists {
