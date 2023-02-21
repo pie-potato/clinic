@@ -8,7 +8,7 @@ export default function Reviews() {
         <div className="container-0">
             <div className="arrows">
                 <h1>Отзывы</h1>
-                <div><img src="../img/arrow2.svg" alt="" />2/5<img src="../img/arrow.svg" alt="" /></div>
+                {/* <div><img src="../img/arrow2.svg" alt="" />2/5<img src="../img/arrow.svg" alt="" /></div> */}
             </div>
             <div className="rewiews-container">
             <Splide options={ {

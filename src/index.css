@@ -227,13 +227,16 @@ header {
   letter-spacing: 0.01em;
 
   color: #002726;
-  width: 200%;
+  width: 100%;
   cursor: pointer;
 }
 
 .point-is-active {
   font-weight: 600;
   color: #00615E;
+  background-image: url("../public/img/icon.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .services-point>div {
@@ -595,6 +598,7 @@ footer>div>h2 {
   opacity: 0;
   pointer-events: none;
   transition: 0.5s;
+  z-index: 10;
 }
 
 .modal.active {
@@ -611,8 +615,11 @@ footer>div>h2 {
   width: 80vw;
   height: 70vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
+  overflow-y: auto;
+  
 }
 
 .modal__content.active {
@@ -620,5 +627,5 @@ footer>div>h2 {
 }
 
 .modal-description {
-  max-width: 60%;
+  max-width: 70%;
 }
