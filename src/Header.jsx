@@ -10,8 +10,9 @@ export default function Header() {
                 <a>Специалисты</a>
                 <a>Контакты</a>
                 <a>Социальное отделение</a>
-            </div>
+            </div>            
             <a className='tel'>+7 (3462) 38-08-94</a>
+            
         </header>
     </>;
 }
