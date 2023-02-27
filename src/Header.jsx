@@ -3,7 +3,7 @@ import React from 'react';
 export default function Header() {
     return <>
         <header>
-            <img src="./img/logo.svg"/>
+            <img src="../img/logo.svg"/>
             {/* <div className='link'>
                 <a>О клинике</a>
                 <a>Услуги</a>

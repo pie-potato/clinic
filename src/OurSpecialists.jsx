@@ -9,24 +9,24 @@ export default function OurSpecialists() {
             <div className="our-specialists">Наши специалисты</div>
             <div className="specialists">
                 <div className="specialist">
-                    <img src="../img/pp.svg" alt="" />
-                    <h3 className="specialist-name">Мелова Анна Ивановна</h3>
-                    <p className="specialization">Массажист</p>
+                    <img src="../img/gulfia.jpeg" alt="" />
+                    <h3 className="specialist-name">Абдурахманова Гульфия Халитовна</h3>
+                    <p className="specialization">Врач невролог врач высшей квалификационной категории</p>
                 </div>
                 <div className="specialist">
-                    <img src="../img/pp.svg" alt="" />
-                    <h3 className="specialist-name">Мелова Анна Ивановна</h3>
-                    <p className="specialization">Массажист</p>
+                    <img src="../img/alia.jpeg" alt="" />
+                    <h3 className="specialist-name">Озганбаева Алия Муртазалиевна</h3>
+                    <p className="specialization">Врач терапевт</p>
                 </div>
                 <div className="specialist">
-                    <img src="../img/pp.svg" alt="" />
-                    <h3 className="specialist-name">Мелова Анна Ивановна</h3>
-                    <p className="specialization">Массажист</p>
+                    <img src="../img/emina.jpeg" alt="" />
+                    <h3 className="specialist-name">Саитова Эмина Нурсаидовна</h3>
+                    <p className="specialization">Главный врач врач педиатр</p>
                 </div>
                 <div className="specialist">
-                    <img src="../img/pp.svg" alt="" />
-                    <h3 className="specialist-name">Мелова Анна Ивановна</h3>
-                    <p className="specialization">Массажист</p>
+                    <img src="../img/seperxan.jpeg" alt="" />
+                    <h3 className="specialist-name">Сариева Сеперхан Мурзадиновна</h3>
+                    <p className="specialization">Нейропсихолог, клинический психолог</p>
                 </div>
             </div>
 
@@ -53,32 +53,32 @@ export default function OurSpecialists() {
                         }
                 } }>
                 <SplideSlide>
-                    <div className="specialist">
-                        <img src="../img/pp.svg" alt="" />
-                        <h3 className="specialist-name">Мелова Анна Ивановна</h3>
-                        <p className="specialization">Массажист</p>
-                    </div>
+                <div className="specialist">
+                    <img src="../img/gulfia.jpeg" alt="" />
+                    <h3 className="specialist-name">Абдурахманова Гульфия Халитовна</h3>
+                    <p className="specialization">Врач невролог врач высшей квалификационной категории</p>
+                </div>
                 </SplideSlide>
                 <SplideSlide>
-                    <div className="specialist">
-                        <img src="../img/pp.svg" alt="" />
-                        <h3 className="specialist-name">Мелова Анна Ивановна</h3>
-                        <p className="specialization">Массажист</p>
-                    </div>
+                <div className="specialist">
+                    <img src="../img/alia.jpeg" alt="" />
+                    <h3 className="specialist-name">Озганбаева Алия Муртазалиевна</h3>
+                    <p className="specialization">Врач терапевт</p>
+                </div>
                 </SplideSlide>
                 <SplideSlide>
-                    <div className="specialist">
-                        <img src="../img/pp.svg" alt="" />
-                        <h3 className="specialist-name">Мелова Анна Ивановна</h3>
-                        <p className="specialization">Массажист</p>
-                    </div>
+                <div className="specialist">
+                    <img src="../img/emina.jpeg" alt="" />
+                    <h3 className="specialist-name">Саитова Эмина Нурсаидовна</h3>
+                    <p className="specialization">Главный врач врач педиатр</p>
+                </div>
                 </SplideSlide>
                 <SplideSlide>
-                    <div className="specialist">
-                        <img src="../img/pp.svg" alt="" />
-                        <h3 className="specialist-name">Мелова Анна Ивановна</h3>
-                        <p className="specialization">Массажист</p>
-                    </div>
+                <div className="specialist">
+                    <img src="../img/seperxan.jpeg" alt="" />
+                    <h3 className="specialist-name">Сариева Сеперхан Мурзадиновна</h3>
+                    <p className="specialization">Нейропсихолог, клинический психолог</p>
+                </div>
                 </SplideSlide>
             </Splide>
         </div>

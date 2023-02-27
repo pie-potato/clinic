@@ -13,8 +13,8 @@ export default function Footer() {
                     <p>2023</p>
                 </div>
                 <div className="link-footer">
-                    <p>Санитарно-эпидемологическое заключение</p>
-                    <p>Лицензия</p>
+                    <a href="../amendments_to_the_charter.pdf" download="../amendments_to_the_charter.pdf">Санитарно-эпидемологическое заключение</a>
+                    <a href="../license.pdf" download="../license.pdf">Лицензия</a>
                 </div>
             </div>
         </div>
