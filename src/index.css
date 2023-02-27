@@ -118,12 +118,12 @@ header {
   cursor: pointer;
 }
 
-video {
+.video {
   box-sizing: border-box;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   border: 1px solid #F3A4B7;
   max-width: 402px;
-  /* width: 100%; */
+  width: 100%;
 }
 
 
@@ -477,6 +477,7 @@ video {
 
   color: #009B97;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 .specialization {
