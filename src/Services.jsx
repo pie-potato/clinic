@@ -3,7 +3,16 @@ import { useState } from 'react';
 import servicesData from "./servicesData.json";
 
 
-const servicesList = [{title: "Специалисты", value: "specialists"}, {title: "Физиолечение", value: "physiotherapy"}]
+const servicesList = [
+    {title: "Специалисты", value: "specialists"}, 
+    {title: "Другие услуги", value: "otheir_services"}, 
+    {title: "Кабинет массажа", value: "massage_room"}, 
+    {title: "Кабинет физиолечения", value: "physiotherapy_room"},
+    {title: "Лечебная физкультура", value: "physical_therapy"},
+    {title: "Лабораторная диагностика", value: "laboratory_diagnostics"},
+    {title: "Процедурный кабинет", value: "treatment_room"}
+
+]
 
 export default function Services() {
     
