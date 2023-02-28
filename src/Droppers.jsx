@@ -24,7 +24,7 @@ export default function Droppers() {
     }
 
     return <>
-        <div className="container-0">
+        <div className="container-0" id='drops'>
             <div className="arrows">
                 <h1>Капельницы</h1>
                 {/* <div><img src="../img/arrow2.svg" alt="" />2/5<img className="splide__arrows" src="../img/arrow.svg" alt="" /></div> */}
