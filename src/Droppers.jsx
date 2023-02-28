@@ -10,8 +10,6 @@ import { LOOP } from "@splidejs/splide";
 
 const dropperList = Object.keys(dropperData)
 
-let d = "antistress"
-
 export default function Droppers() {
 
     const [dropperItem, setDropperItem] = useState()
