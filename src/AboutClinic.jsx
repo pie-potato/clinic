@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutClinic() {
     return <>
-        <div className="container">
+        <div className="container" id='about'>
             <div>
                 <img  className="clinic-img" src="../img/a.svg"/>
             </div>

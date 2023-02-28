@@ -5,7 +5,7 @@ import { LOOP } from "@splidejs/splide";
 
 export default function OurSpecialists() {
     return <>
-        <div className="container-0">
+        <div className="container-0" id='specialists'>
             <div className="our-specialists">Наши специалисты</div>
             <div className="specialists">
                 <div className="specialist">

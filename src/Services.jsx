@@ -25,7 +25,7 @@ export default function Services() {
     }
 
     return <>
-        <div className="container-0">
+        <div className="container-0" id='services'>
             <div className="services-hover">
                 <h1 className="name-services">Услуги</h1>
                 <button className="button-services">ЗАПИСАТЬСЯ</button>

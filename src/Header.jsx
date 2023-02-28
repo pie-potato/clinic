@@ -1,32 +1,26 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 export default function Header() {
+    const [open, setOpen] = useState(false)
+
+    const links = (
+        <>
+            <li><a className='nav-link' href='#about'>О клинике</a></li>
+            <li><a className='nav-link' href='#services'>Услуги</a></li>
+            <li><a className='nav-link' href='#drops'>Капельницы</a></li>
+            <li><a className='nav-link' href='#specialists'>Специалисты</a></li>
+            <li><a className='nav-link' href='#contacts'>Контакты</a></li>
+            <li><a className='tel' href='tel:>+73462380894' style={{fontWeight: 600}}>+7 (3462) 38-08-94</a></li>
+        </>
+    )
     return <>
         <header>
-            <img src="../img/logo.svg"/>
-            {/* <div className='link'>
-                <a>О клинике</a>
-                <a>Услуги</a>
-                <a>Специалисты</a>
-                <a>Контакты</a>
-                <a>Социальное отделение</a>
-            </div>             */}
-            
+            <img style={{ maxWidth: '283px' }} src="../img/logo.svg"/>
             <section class="top-nav">
-                <input id="menu-toggle" type="checkbox" />
-                <label class='menu-button-container' for="menu-toggle">
-                <div class='menu-button'></div>
-            </label>
-                <ul class="menu">
-                <li><a>О клинике</a></li>
-                <li><a>Услуги</a></li>
-                <li><a>Специалисты</a></li>
-                <li><a>Контакты</a></li>
-                <li><a>Социальное отделение</a></li>
-                <li><a className='tel'>+7 (3462) 38-08-94</a></li>
-                </ul>
+                <img src="/img/menu.svg" className='menu-btn' width={24} height={24} alt="меню" onClick={() => setOpen(!open)}/>
+                {open && <div className="mobile-menu">{links}</div>}
+                <ul class="menu">{links}</ul>
             </section>
-            
         </header>
     </>;
 }
