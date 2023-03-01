@@ -12,7 +12,7 @@ export default function Contacts() {
         <div className="arrows"><h1>Мы на связи</h1></div>
         <div className="container-contacts">
             <YMaps>
-                <Map defaultState={defaultState} height={526} className="y-map">
+                <Map defaultState={defaultState} className="y-map">
                     <Placemark geometry={[61.250730, 73.431852]} />
                 </Map>
             </YMaps>
