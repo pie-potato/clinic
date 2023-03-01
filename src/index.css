@@ -18,6 +18,7 @@ code {
 header {
   display: flex;
   flex-wrap: nowrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
