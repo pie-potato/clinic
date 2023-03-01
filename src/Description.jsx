@@ -5,7 +5,7 @@ export default function Description() {
     const [modalActive, setModalActive] = useState(false)
 
     return <>
-        <div className="container">
+        <div className="container-description">
             <div className="short-description">
                 <p className="mimi-p">Медицина оздоровления в Сургуте</p>
                 <h1>Мы стремимся помочь вам чувствовать себя хорошо</h1>
