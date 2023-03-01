@@ -22,7 +22,7 @@ export default function Description() {
                 <img src="../img/elipse-9.svg" className="eliple-9"/>
             </div>
         </div>
-        <Modal active={modalActive} setActive={setModalActive}>
+        <Modal active={modalActive} setActive={setModalActive} pad={0}>
             <iframe className="video-modal" width="100%" height="440" src="https://www.youtube.com/embed/EK2zrhecUTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </Modal>
     </>;
