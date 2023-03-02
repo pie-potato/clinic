@@ -14,7 +14,7 @@ export default function Description() {
             </div>
             <div className="video">
                 <img src="../img/video-pic.svg" className="video-svg" onClick={() => setModalActive(true)}/>
-                <img src="../img/button-play.svg" className="button-play"/>
+                <img src="../img/button-play.svg" className="button-play" onClick={() => setModalActive(true)}/>
                 <img src="../img/elipse-1.svg" className="eliple-1"/>
                 <img src="../img/elipse-2.svg" className="eliple-2"/>
                 <img src="../img/elipse-5.svg" className="eliple-5"/>
