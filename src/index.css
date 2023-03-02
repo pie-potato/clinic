@@ -186,6 +186,7 @@ header {
   position: relative;
   max-width: 402px;
   width: 100%;
+  z-index: 2;
 }
 
 .video-svg {
@@ -855,6 +856,9 @@ footer>div>h2 {
 }
 
 @media (max-width: 768px) {
+  .App {
+    background-size: auto;
+  }
   .specialists {
     display: none;
   }
@@ -871,15 +875,9 @@ footer>div>h2 {
   .contacts {
     width: 100%;
   }
-  /* .services {
-    display: none;
+  .container-contacts {
+    margin-bottom: -150px;
   }
-  .mobile-services {
-    display: block;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  } */
 }
 
 
@@ -927,7 +925,22 @@ footer>div>h2 {
     width: 100%;
   }
   .short-description>h1 {
-    font-size: 45px;
+    font-size: 27px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .mimi-p, .mini-p {
+    text-align: left;
+    padding-left: 30px;
+  }
+  .mini-p {
+    margin-bottom: 20px;
+  }
+  .container-description, .container, .container-0 {
+    margin: 40px auto;
+  }
+  .container-contacts {
+    margin-bottom: -40px;
   }
 }
 
