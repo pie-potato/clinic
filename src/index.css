@@ -156,7 +156,7 @@ header {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 55px;
   line-height: 112.52%;
   letter-spacing: 0.005em;
@@ -925,7 +925,7 @@ footer>div>h2 {
     width: 100%;
   }
   .short-description>h1 {
-    font-size: 27px;
+    font-size: 33px;
     text-align: left;
     padding-left: 30px;
   }
@@ -941,6 +941,9 @@ footer>div>h2 {
   }
   .container-contacts {
     margin-bottom: -40px;
+  }
+  .about-clinic>div>h1, .name-services, .arrows>h1 {
+    font-size: 27px;
   }
 }
 
