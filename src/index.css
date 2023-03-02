@@ -838,7 +838,7 @@ footer>div>h2 {
   justify-content: space-around;
   flex-wrap: wrap;
   overflow-y: auto;
-  max-height: 60%;
+  max-height: 85%;
 }
 
 .modal__content.active {
@@ -854,6 +854,13 @@ footer>div>h2 {
   justify-content: right;
   align-items: flex-start;
 }
+
+@media (max-width: 1232px) {
+  .about-clinic>div>h1, .name-services, .arrows>h1, .our-specialists {
+    padding-left: 30px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .App {
@@ -879,7 +886,6 @@ footer>div>h2 {
     margin-bottom: -150px;
   }
 }
-
 
 @media (max-width: 1100px) {
   .container {
@@ -915,6 +921,12 @@ footer>div>h2 {
   .services-point-item {
     width: 100%;
   }
+  .services-point>div {
+    padding: 15px;
+  }
+  .services-point>div:last-child {
+    padding: 15px;
+  }
 }
 
 @media (max-width: 440px) {
@@ -944,6 +956,7 @@ footer>div>h2 {
   }
   .about-clinic>div>h1, .name-services, .arrows>h1, .our-specialists {
     font-size: 27px;
+    padding-left: 30px;
   }
 }
 
@@ -962,9 +975,14 @@ footer>div>h2 {
 @media (max-width: 742px) {
   .inc-name {
     text-align: left;
+    padding-left: 30px;
   }  
   .link-footer {
     text-align: left;
+    padding-left: 30px;
+  }
+  .logo-footer {
+    padding-left: 30px;
   }
 }
 
