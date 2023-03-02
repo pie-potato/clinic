@@ -13,6 +13,9 @@ code {
 
 .App {
   overflow: hidden;
+  background-image: url("../public/img/backgraound.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 header {
