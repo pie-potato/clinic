@@ -1,8 +1,8 @@
-import React, {useSate, useState} from "react";
+import React, { useSate, useState } from "react";
 import Modal from "./Modal";
 
 export default function Description() {
-    const [modalActive, setModalActive] = useState(false)
+  const [modalActive, setModalActive] = useState(false);
 
     return <>
         <div className="container-description">
