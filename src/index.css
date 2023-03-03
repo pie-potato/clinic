@@ -203,6 +203,7 @@ header {
     max-width: 402px;
     width: 100%;
     cursor: pointer;
+    margin: 20px 0;
 }
 
 .video-modal {
