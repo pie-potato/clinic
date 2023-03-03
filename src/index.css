@@ -15,6 +15,10 @@ code {
     overflow: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     flex-wrap: nowrap;
@@ -30,6 +34,34 @@ header {
 }
 
 .mobile-menu {
+    /* display: flex; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #F8FFFF;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* margin-top: 200px; */
+    /* padding-top: 30px; */
+    z-index: 10;
+}
+
+.menu-btn-mobile {
+    padding: 1em;
+}
+
+.mobile-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1232px;
+    margin: 0;
     display: flex;
     position: fixed;
     left: 0;
@@ -47,6 +79,10 @@ header {
 }
 
 .mobile-menu li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: #1E8C76 1px solid;
+    width: 100%;
     margin-bottom: 20px;
     padding: 10px 30px;
     border-bottom: #1E8C76 1px solid;
@@ -109,7 +145,7 @@ header {
 .short-description {
     max-width: 658px;
     text-align: left;
-    margin-bottom: 40px;
+    margin-top: -30px;
 }
 
 .mini-p {
@@ -160,7 +196,11 @@ header {
     text-align: center;
     letter-spacing: 2px;
     color: #70001B;
+    transition: 0.2s;
+}
 
+.description-button:hover {
+    filter: drop-shadow(0px 7px 15px #FFC5D2);
 }
 
 .video {
@@ -168,6 +208,9 @@ header {
     position: relative;
     max-width: 402px;
     width: 100%;
+    z-index: 2;
+
+
 }
 
 .video-svg {
@@ -230,6 +273,11 @@ header {
     z-index: -1;
 }
 
+.button-play {
+    position: absolute;
+    left: 153px;
+    top: 141px;
+}
 
 .about-clinic {
     max-width: 497px;
@@ -262,7 +310,6 @@ header {
 }
 
 .teraphy {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -272,12 +319,11 @@ header {
 }
 
 .post {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 135.52%;
-
+    margin-top: -10px;
     color: #003433;
 }
 
@@ -303,22 +349,22 @@ header {
 .button-services {
     background: linear-gradient(267.76deg, #EDB7C4 11.05%, #FF91AB 75.8%);
     border-radius: 10px;
-
     width: 253px;
     height: 62px;
     border: none;
     cursor: pointer;
-
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-
     text-align: center;
     letter-spacing: 0.125em;
-
     color: #70001B;
+    transition: 0.2s;
+}
+
+.button-services:hover {
+    box-shadow: 0px 2px 15px #FFC5D2;
 }
 
 .container-serviecs {
@@ -473,19 +519,21 @@ header {
     background: linear-gradient(180deg, #FF9999 0%, #FF95A0 70.83%, #FF8EA9 100%);
     border-radius: 37px;
     border: none;
-
     width: 241px;
     height: 66px;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 135.52%;
-
     color: #FFFFFF;
     margin-left: 32px;
     margin-top: -25px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.button-dropper:hover {
+    background: linear-gradient(180deg, #ff6060 0%, #ff7380 70.83%, #ff658c 100%);
 }
 
 .button-dropper-modal {
@@ -670,7 +718,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px 58px 55px;
+    padding: 0 40px 58px 55px;
 }
 
 .work-day {
@@ -694,6 +742,7 @@ footer {
     max-width: 1232px;
     margin: auto;
     flex-wrap: wrap;
+    padding: 40px 0;
 }
 
 .footer-name-link {
@@ -702,17 +751,14 @@ footer {
     justify-content: space-around;
 }
 
-.logo-footer > img {
-    margin-left: -25px;
-}
 
 .tel-footer {
-    font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-
+    text-decoration: none;
+    margin-top: 50px;
     color: #006966;
 }
 
@@ -821,12 +867,7 @@ footer > div > h2 {
 
 .modal-description {
     max-width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
 }
-
 
 .cross-modal {
     display: flex;
@@ -834,7 +875,18 @@ footer > div > h2 {
     align-items: flex-start;
 }
 
+@media (max-width: 1232px) {
+    .about-clinic > div > h1, .name-services, .arrows > h1, .our-specialists {
+        padding-left: 30px;
+    }
+}
+
+
 @media (max-width: 768px) {
+    .App {
+        background-size: auto;
+    }
+
     .specialists {
         display: none;
     }
@@ -856,15 +908,9 @@ footer > div > h2 {
         width: 100%;
     }
 
-    /* .services {
-      display: none;
+    .container-contacts {
+        margin-bottom: -150px;
     }
-    .mobile-services {
-      display: block;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-    } */
 }
 
 
@@ -907,6 +953,14 @@ footer > div > h2 {
     .services-point-item {
         width: 100%;
     }
+
+    .services-point > div {
+        padding: 15px;
+    }
+
+    .services-point > div:last-child {
+        padding: 15px;
+    }
 }
 
 @media (max-width: 440px) {
@@ -917,11 +971,63 @@ footer > div > h2 {
     .modal-description {
         width: 100%;
     }
+
+    .short-description > h1 {
+        font-size: 33px;
+        text-align: left;
+        padding-left: 30px;
+        font-weight: 400;
+    }
+
+    .mimi-p, .mini-p {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .mini-p {
+        margin-bottom: 20px;
+    }
+
+    .container-description, .container, .container-0 {
+        margin: 40px auto;
+    }
+
+    .container-contacts {
+        margin-bottom: -40px;
+    }
+
+    .about-clinic > div > h1, .name-services, .arrows > h1, .our-specialists {
+        font-size: 27px;
+        padding-left: 30px;
+    }
 }
 
 @media (max-width: 530px) {
     .working-hours {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .services-hover {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 742px) {
+    .inc-name {
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .link-footer {
+        text-align: left;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    .logo-footer {
+        padding-left: 30px;
     }
 }
 

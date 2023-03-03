@@ -4,7 +4,6 @@ import Modal from "./Modal";
 import dropperData from "./dropperData.json";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import { LOOP } from "@splidejs/splide";
 
 const dropperList = Object.keys(dropperData);
 
@@ -14,6 +13,7 @@ export default function Droppers() {
   const [modalActive, setModalActive] = useState(false);
 
   function modalDropper(item) {
+    console.log("render");
     setDropperItem(item);
     setModalActive(true);
   }
@@ -33,8 +33,7 @@ export default function Droppers() {
             perPage: 4,
             perMove: 1,
             autoplay: true,
-            interval: 2500,
-            type: "loop",
+            interval: 6000,
             arrows: true,
             mediaQuery: "max",
             breakpoints: {
@@ -51,7 +50,6 @@ export default function Droppers() {
           }}
         >
           {dropperList.map((element) => {
-            console.log(element);
             return (
               <SplideSlide>
                 <div className="dropper">

@@ -22,6 +22,11 @@ export default function Description() {
             className="video-svg"
             onClick={() => setModalActive(true)}
           />
+          <img
+            src="../img/button-play.svg"
+            className="button-play"
+            onClick={() => setModalActive(true)}
+          />
           <img src="../img/elipse-1.svg" className="eliple-1" />
           <img src="../img/elipse-2.svg" className="eliple-2" />
           <img src="../img/elipse-5.svg" className="eliple-5" />
@@ -34,7 +39,7 @@ export default function Description() {
         <iframe
           className="video-modal"
           width="100%"
-          height="700px"
+          height="440"
           src="https://www.youtube.com/embed/EK2zrhecUTw"
           title="YouTube video player"
           frameborder="0"

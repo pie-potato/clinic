@@ -6,7 +6,9 @@ export default function Footer() {
       <div className="footer">
         <div className="logo-footer">
           <img src="../img/logo-footer.svg" />
-          <h2 className="tel-footer">+7 (3462) 38‒08‒94</h2>
+          <a href="tel: 83462380894">
+            <h2 className="tel-footer">+7 (3462) 38‒08‒94</h2>
+          </a>
         </div>
         <div className="footer-name-link">
           <div className="inc-name">

@@ -13,12 +13,21 @@ export default function Header() {
             <li><a className='tel' href='tel:>+73462380894' style={{fontWeight: 600}} onClick={() => setOpen(false)}>+7 (3462) 38-08-94</a></li>
         </>
     )
+
+    const mobileLink = <>
+                <div className='mobile-pic'>
+                    <img style={{ maxWidth: '283px'}} src="../img/logo.svg"/>
+                    <img src="/img/menu.svg" className='menu-btn-mobile' width={24} height={24} alt="меню" onClick={() => setOpen(!open)}/>
+                </div>
+                {links}
+    </>
+    
     return <>
         <header>
             <img style={{ maxWidth: '283px' }} src="../img/logo.svg"/>
             <section class="top-nav">
                 <img src="/img/menu.svg" className='menu-btn' width={24} height={24} alt="меню" onClick={() => setOpen(!open)}/>
-                {open && <div className="mobile-menu">{links}</div>}
+                {open && <div className="mobile-menu">{mobileLink}</div>}
                 <ul class="menu">{links}</ul>
             </section>
         </header>
