@@ -241,10 +241,17 @@ header {
   z-index: -1;
 }
 
-.button-play {
+.button-play-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 153px;
   top: 141px;
+  width: 107.04px;
+  height: 107.04px;
+  background: rgba(255, 255, 255, 0.78);
+  border-radius: 50%;
 }
 
 .about-clinic {
