@@ -84,7 +84,9 @@ export default function Droppers() {
                     {dropperData[dropperItem]?.full_description}
                   </p>
                 </div>
-                <button className="description-button">ЗАПИСАТЬСЯ</button>
+                <a href="#" className="ms_booking">
+                  <button className="button-services">ЗАПИСАТЬСЯ</button>
+                </a>
               </div>
             </>
           }
