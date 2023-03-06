@@ -183,6 +183,8 @@ header {
     letter-spacing: 2px;
     color: #70001B;
     transition: 0.2s;
+    position: relative;
+    z-index: 10;
 }
 
 .description-button:hover {
