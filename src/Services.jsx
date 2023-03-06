@@ -24,7 +24,9 @@ export default function Services() {
       <div className="container-0" id="services">
         <div className="services-hover">
           <h1 className="name-services">Услуги</h1>
-          <button className="button-services">ЗАПИСАТЬСЯ</button>
+          <a href="#" className="ms_booking">
+            <button className="button-services">ЗАПИСАТЬСЯ</button>
+          </a>
         </div>
         <div className="services">
           <div className="services-point">

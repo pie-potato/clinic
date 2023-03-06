@@ -28,7 +28,8 @@ export default function Contacts() {
               </a>
               <br />
               <p>
-                Записаться на прием можно по телефону, WhatsApp или по ссылке.
+                Записаться на прием можно по телефону, WhatsApp или по кнопке
+                ниже.
               </p>
             </div>
             <div className="working-hours">
@@ -42,7 +43,9 @@ export default function Contacts() {
                   <p>10:00 - 20:00</p>
                 </div>
               </div>
-              <button className="button-services">ЗАПИСАТЬСЯ</button>
+              <a href="#" className="ms_booking">
+                <button className="button-services">ЗАПИСАТЬСЯ</button>
+              </a>
             </div>
           </div>
         </div>
