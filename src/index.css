@@ -261,16 +261,16 @@ header {
 }
 
 .button-play-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 153px;
-  top: 160px;
-  width: 107.04px;
-  height: 107.04px;
-  background: rgba(255, 255, 255, 0.78);
-  border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 153px;
+    top: 160px;
+    width: 107.04px;
+    height: 107.04px;
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 50%;
 }
 
 .about-clinic {
@@ -598,9 +598,10 @@ header {
     max-width: 300px;
 }
 
-.specialist > img {
+.specialist-img {
     width: 100%;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .mobile-specialists {

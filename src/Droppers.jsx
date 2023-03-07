@@ -2,7 +2,8 @@ import React from "react";
 import { useState } from "react";
 import Modal from "./Modal";
 import dropperData from "./dropperData.json";
-import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "@splidejs/react-splide/css";
 
 const dropperList = Object.keys(dropperData);
@@ -51,9 +52,15 @@ export default function Droppers() {
         >
           {dropperList.map((element) => {
             return (
-              <SplideSlide>
+              <SplideSlide key={element.name}>
                 <div className="dropper">
-                  <img src={"../img/" + element + ".svg"} alt="" />
+                  <LazyLoadImage
+                    effect="black-and-white"
+                    width={272}
+                    height={357}
+                    src={"../img/" + element + ".png"}
+                    placeholderSrc={"../img/placeholder-dropper.png"}
+                  />
                   <button
                     className="button-dropper"
                     onClick={() => modalDropper(element)}
@@ -68,7 +75,13 @@ export default function Droppers() {
         <Modal active={modalActive} setActive={setModalActive}>
           {
             <>
-              <img src={"../img/" + dropperItem + ".svg"} alt="" />
+              <LazyLoadImage
+                effect="blur"
+                width={272}
+                height={357}
+                src={"../img/" + dropperItem + ".png"}
+                placeholderSrc={"../img/placeholder-dropper.png"}
+              />
               <div className="modal-description">
                 <div className="dropper-content">
                   <h2 className="dropper-name">
