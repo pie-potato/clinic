@@ -195,8 +195,21 @@ header {
     max-width: 402px;
     width: 100%;
     z-index: 2;
+    cursor: pointer;
+    transition: 0.2s;
+}
 
+.button-play-container {
+    transition: 0.2s;
+}
 
+.video:hover {
+    filter: drop-shadow(0px 7px 15px rgba(242, 138, 160, 0.49));
+}
+
+.video:hover .button-play-container {
+    background: #fff;
+    filter: drop-shadow(0px 7px 15px rgba(0, 155, 151, 0.53));
 }
 
 .video-svg {
