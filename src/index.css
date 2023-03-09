@@ -183,6 +183,8 @@ header {
     letter-spacing: 2px;
     color: #70001B;
     transition: 0.2s;
+    position: relative;
+    z-index: 10;
 }
 
 .description-button:hover {
@@ -881,6 +883,20 @@ footer > div > h2 {
     display: flex;
     justify-content: right;
     align-items: flex-start;
+}
+
+@media (max-width: 375px) {
+  .button-play-container {
+    left: 140px;
+    top: 145px;
+  }
+}
+
+@media (max-width: 320px) {
+  .button-play-container {
+    left: 113px;
+    top: 121px;
+  }  
 }
 
 @media (max-width: 1232px) {
