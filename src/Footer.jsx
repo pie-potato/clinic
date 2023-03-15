@@ -20,7 +20,7 @@ export default function Footer() {
               href="../amendments_to_the_charter.pdf"
               download="../amendments_to_the_charter.pdf"
             >
-              Санитарно-эпидемологическое заключение
+              Санитарно-эпидемиологические заключение
             </a>
             <a href="../license.pdf" download="../license.pdf">
               Лицензия

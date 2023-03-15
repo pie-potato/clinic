@@ -21,7 +21,7 @@ export default function OurSpecialists() {
             />
             <h3 className="specialist-name">Абдурахманова Гульфия Халитовна</h3>
             <p className="specialization">
-              Врач невролог врач высшей квалификационной категории
+              Врач невролог, врач высшей квалификационной категории
             </p>
           </div>
           <div className="specialist">
@@ -46,7 +46,7 @@ export default function OurSpecialists() {
               placeholderSrc={"../img/sp-placeholder.png"}
             />
             <h3 className="specialist-name">Саитова Эмина Нурсаидовна</h3>
-            <p className="specialization">Главный врач врач педиатр</p>
+            <p className="specialization">Главный врач, врач педиатр</p>
           </div>
           <div className="specialist">
             <LazyLoadImage
