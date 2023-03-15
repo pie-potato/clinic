@@ -142,7 +142,7 @@ header {
     line-height: 135.52%;
     margin-bottom: 90px;
     margin-top: 36px;
-    max-width: 268px;
+    max-width: 368px;
 }
 
 .mimi-p {
@@ -160,8 +160,8 @@ header {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-style: normal;
-    font-weight: 300;
-    font-size: 55px;
+    font-weight: 500;
+    font-size: 70px;
     line-height: 112.52%;
     letter-spacing: 0.005em;
     margin: 0;
@@ -886,17 +886,17 @@ footer > div > h2 {
 }
 
 @media (max-width: 375px) {
-  .button-play-container {
-    left: 140px;
-    top: 145px;
-  }
+    .button-play-container {
+        left: 140px;
+        top: 145px;
+    }
 }
 
 @media (max-width: 320px) {
-  .button-play-container {
-    left: 113px;
-    top: 121px;
-  }  
+    .button-play-container {
+        left: 113px;
+        top: 121px;
+    }
 }
 
 @media (max-width: 1232px) {

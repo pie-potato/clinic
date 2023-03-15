@@ -9,7 +9,7 @@ export default function Description() {
       <div className="container-description">
         <div className="short-description">
           <p className="mimi-p">Медицина оздоровления в Сургуте</p>
-          <h1>Мы стремимся помочь вам чувствовать себя хорошо</h1>
+          <h1>Заботимся о вашем здоровье</h1>
           <p className="mini-p">
             В своей практике мы используем передовые методы диагностики и
             лечения заболеваний
