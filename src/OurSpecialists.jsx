@@ -91,7 +91,7 @@ export default function OurSpecialists() {
         >
           <SplideSlide>
             <div className="specialist">
-              <img src="../img/gulfia.jpeg" alt="" />
+              <img src="../img/gulfia.jpeg" className="specialist-img" alt="" />
               <h3 className="specialist-name">
                 Абдурахманова Гульфия Халитовна
               </h3>
@@ -102,21 +102,21 @@ export default function OurSpecialists() {
           </SplideSlide>
           <SplideSlide>
             <div className="specialist">
-              <img src="../img/alia.jpeg" alt="" />
+              <img src="../img/alia.jpeg" className="specialist-img" alt="" />
               <h3 className="specialist-name">Озганбаева Алия Муртазалиевна</h3>
               <p className="specialization">Врач терапевт</p>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className="specialist">
-              <img src="../img/emina.jpeg" alt="" />
+              <img src="../img/emina.jpeg" className="specialist-img" alt="" />
               <h3 className="specialist-name">Саитова Эмина Нурсаидовна</h3>
               <p className="specialization">Главный врач врач педиатр</p>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className="specialist">
-              <img src="../img/seperxan.jpeg" alt="" />
+              <img src="../img/seperxan.jpeg" className="specialist-img" alt="" />
               <h3 className="specialist-name">Сариева Сеперхан Мурзадиновна</h3>
               <p className="specialization">
                 Нейропсихолог, клинический психолог
