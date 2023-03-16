@@ -574,6 +574,10 @@ header {
     color: #009B97;
 }
 
+.dropper-description {
+    line-height: 26px;
+}
+
 .arrows {
     display: flex;
     align-items: center;
