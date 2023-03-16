@@ -665,7 +665,7 @@ header {
     background: linear-gradient(180deg, #DDFFE0 0%, #C5FFF3 100%);
     border-radius: 19px;
     /* width: 325px; */
-    height: 390px;
+    height: 490px;
     padding: 15px;
     text-align: left;
 }
@@ -701,7 +701,7 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-height: 434px;
+    max-height: 610px;
     overflow: hidden;
     max-width: 1232px;
 }
