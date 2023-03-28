@@ -24,7 +24,7 @@ export default function Header() {
     
     return <>
         <header>
-            <img style={{ maxWidth: '283px' }} src="../img/logo.svg"/>
+            <img style={{ width: '330px' }} src="../img/logo.svg"/>
             <section class="top-nav">
                 <img src="/img/menu.svg" className='menu-btn' width={24} height={24} alt="меню" onClick={() => setOpen(!open)}/>
                 {open && <div className="mobile-menu">{mobileLink}</div>}
