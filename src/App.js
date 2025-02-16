@@ -7,6 +7,7 @@ import Droppers from './Droppers';
 import OurSpecialists from './OurSpecialists';
 import Reviews from './Reviews';
 import Services from './Services.jsx';
+import Documents from './Documents.jsx';
 import Contacts from './Contacts';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
       <Droppers />
       <OurSpecialists />
       <Reviews />
+      <Documents/>
       <Contacts />
       <Footer />
     </div>

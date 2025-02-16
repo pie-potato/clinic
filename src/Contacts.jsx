@@ -31,6 +31,10 @@ export default function Contacts() {
                 Записаться на прием можно по телефону, WhatsApp или по кнопке
                 ниже.
               </p>
+              <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
+                <img src="../img/qr.jpg" alt="QR-code" width={150}/>
+                <h2>Оцените наши услуги</h2>
+              </div>
             </div>
             <div className="working-hours">
               <div>
@@ -49,6 +53,9 @@ export default function Contacts() {
             </div>
           </div>
         </div>
+        {/* <div>
+          <img src="../img/poster.png" alt="Постер" width={1000}/>
+        </div> */}
       </div>
       {/* <div className="container">
             

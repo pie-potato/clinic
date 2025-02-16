@@ -9,6 +9,7 @@ export default function Header() {
             <li><a className='nav-link' href='#services' onClick={() => setOpen(false)}>Услуги</a></li>
             <li><a className='nav-link' href='#drops' onClick={() => setOpen(false)}>Капельницы</a></li>
             <li><a className='nav-link' href='#specialists' onClick={() => setOpen(false)}>Специалисты</a></li>
+            <li><a className='nav-link' href='#documents' onClick={() => setOpen(false)}>Документы</a></li>
             <li><a className='nav-link' href='#contacts' onClick={() => setOpen(false)}>Контакты</a></li>
             <li><a className='tel' href='tel:>+73462380894' style={{fontWeight: 600}} onClick={() => setOpen(false)}>+7 (3462) 38-08-94</a></li>
         </>

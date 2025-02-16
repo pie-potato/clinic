@@ -456,6 +456,7 @@ header {
     text-align: left;
     justify-content: space-between;
     padding-bottom: 10px;
+    overflow-wrap: anywhere;
 }
 
 .services-title {
